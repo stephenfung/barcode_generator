@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script type="text/javascript" src="underscore.js"></script>
+    <script type="text/javascript" src="raphael.js"></script>
+    <script type="text/javascript" src="knockout.js"></script>
+</head>
+<body>
+    <p>Plain Text: <input data-bind="value:plaintext, valueUpdate:'afterkeydown'"></p>
+    <p>Show Text: <input type="checkbox" data-bind="checked:showText"></p>
+    <p>Circular: <input type="checkbox" data-bind="checked:isCircular"></p>
+    <div id="canvas_container"></div>
+</body>
+</html>
+<script type="text/javascript" src="barcode.js"></script>
